@@ -1,0 +1,20 @@
+{% extends 'medico/base.html' %}
+
+{% block content %}
+  {% include 'medico/components/header.html' %}
+
+  <main id="contenido">
+    {% include 'medico/components/hero.html' %}
+    {% include 'medico/components/actions.html' %}
+    {% include 'medico/components/interactive_panels.html' %}
+    {% include 'medico/components/especialidades.html' %}
+    {% include 'medico/components/profesionales.html' %}
+    {% include 'medico/components/vacunacion.html' %}
+    {% include 'medico/components/faq.html' %}
+    {% include 'medico/components/contacto.html' %}
+  </main>
+
+  {% include 'medico/components/footer.html' %}
+  {% include 'medico/components/chatbot.html' %}
+  {% include 'medico/components/opiniones.html' %}
+{% endblock %}

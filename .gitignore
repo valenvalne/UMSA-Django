@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+*.log
+staticfiles/
+media/
+umsa_db/
+umsa_db
